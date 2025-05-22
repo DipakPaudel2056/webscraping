@@ -22,3 +22,5 @@ Well, i have scraped html bit no way this makes any sense at this moment.
 At first i thought the html soup object i was printing in console is what i have to deal with however it is not. we can actually parse as the browser what we see in the browser.
 
 to windup todays lesson lets create a csv file programmatically and add the  findings in there. and also the url seems pretty dynamic we have to figureout the way to store it somewhere dynamically.
+
+Well done for scraping data from nike's store, for now the data seems pretty clean. it is just the basic process will figure out the task for tomorrow.
