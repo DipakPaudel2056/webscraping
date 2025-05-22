@@ -24,3 +24,9 @@ At first i thought the html soup object i was printing in console is what i have
 to windup todays lesson lets create a csv file programmatically and add the  findings in there. and also the url seems pretty dynamic we have to figureout the way to store it somewhere dynamically.
 
 Well done for scraping data from nike's store, for now the data seems pretty clean. it is just the basic process will figure out the task for tomorrow.
+
+# 🔏 Day-2
+For now i have only page loaded and i can only scrape 25 data however in the nike page they have 547 data i did some google check and i can actually scrape all those if i could deal with the pagination. 
+✔️ scrape all data dealing with pagination.
+✔️ check for potential cleaning in excel.
+✔️ instantiate the mysql server to store these findings
