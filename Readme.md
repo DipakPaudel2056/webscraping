@@ -27,6 +27,20 @@ Well done for scraping data from nike's store, for now the data seems pretty cle
 
 # 🔏 Day-2
 For now i have only page loaded and i can only scrape 25 data however in the nike page they have 547 data i did some google check and i can actually scrape all those if i could deal with the pagination. 
-✔️ scrape all data dealing with pagination.
-✔️ check for potential cleaning in excel.
+✅ scrape all data dealing with pagination.
+    let's begin working.
+    i used pytest playwright to simulate the scrolling effect using different times for sleep hopefully it will run on infinite scroll of the nike product page.
+    unfortunately 😔. it doesnot seem working even putting the sleep value of 60 so, i may have to find different approach for this. 
+    will work on it on Day-3.
+    😁😁 the content i got from the playwright page is then converted to html parser to be able to work with beautiful soup.
+    1. managed to scrape more data then yesterday.
+    2. still i havenot hit the page bottom, i ran the bot for sometime and found it was 29000 so i hardcoded that value, i must fix it tomorrow.
+    3. time to sleep
+
+✅ check for potential cleaning in excel.
+    Since it is just 3 columns of data scrapped there is no error so far.
 ✔️ instantiate the mysql server to store these findings
+
+# 🔏 Day-3
+✔️ instantiate the mysql server to store these findings
+✔️ with just title and subtitle the data looks very repititive get some more details from the scraper
