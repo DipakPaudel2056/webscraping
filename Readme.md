@@ -8,10 +8,10 @@ Enough of learning let's get something done for the next 8 days. Here i will be 
 4. I will visualize the data extracting valuable insights using python's matplotlib.
 
 # 🔏 Day-1
-✅ Brainstorm for project Idea
-✅ Understanding of beautifulsoup
-✅ Finding page to scrape the data 
-✅ Project initiation
+- ✅ Brainstorm for project Idea
+- ✅ Understanding of beautifulsoup
+- ✅ Finding page to scrape the data 
+- ✅ Project initiation
 
 So I read couple of blogs that it is difficult to run crawler in big company's site because of their anti-bot system. However, let's setup every thing and try Nike's shoes section scraping.
 
@@ -27,7 +27,7 @@ Well done for scraping data from nike's store, for now the data seems pretty cle
 
 # 🔏 Day-2
 For now i have only page loaded and i can only scrape 25 data however in the nike page they have 547 data i did some google check and i can actually scrape all those if i could deal with the pagination. 
-✅ scrape all data dealing with pagination.
+- ✅ scrape all data dealing with pagination.
     let's begin working.
     i used pytest playwright to simulate the scrolling effect using different times for sleep hopefully it will run on infinite scroll of the nike product page.
     unfortunately 😔. it doesnot seem working even putting the sleep value of 60 so, i may have to find different approach for this. 
@@ -37,10 +37,21 @@ For now i have only page loaded and i can only scrape 25 data however in the nik
     2. still i havenot hit the page bottom, i ran the bot for sometime and found it was 29000 so i hardcoded that value, i must fix it tomorrow.
     3. time to sleep
 
-✅ check for potential cleaning in excel.
+- ✅ check for potential cleaning in excel.
     Since it is just 3 columns of data scrapped there is no error so far.
-✔️ instantiate the mysql server to store these findings
+- ✔️ instantiate the mysql server to store these findings
 
 # 🔏 Day-3
+- ✔️ instantiate the mysql server to store these findings
+- ✅ with just title and subtitle the data looks very repititive get some more details from the scraper
+    - lets's get tag such as best seller, just in, sustainable material as well
+    - Now the next task is to simulate to click each link and get into the product and find the available sizes, colors and description
+    i am able to simulate and get the description, and colors however i struggled over an hour to find the solution for the available sizes. will work on it tomorrow.
+    I will run it untill i get the scroll height > 29000 today and see what it shows in both files and will work on new findings tomorrow.
+
+
+# 🔏 Day-4 
 ✔️ instantiate the mysql server to store these findings
-✔️ with just title and subtitle the data looks very repititive get some more details from the scraper
+✔️ fix the issue with the shoe sizes label in product page
+✔️ Do some python leetcodes
+
