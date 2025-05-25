@@ -51,7 +51,13 @@ For now i have only page loaded and i can only scrape 25 data however in the nik
 
 
 # 🔏 Day-4 
-✔️ instantiate the mysql server to store these findings
-✔️ fix the issue with the shoe sizes label in product page
-✔️ Do some python leetcodes
+✅ instantiate the mysql server to store these findings
+I have successfully connected and programmatically saved the data from csv to the database and also done some modification.
+- ✔️ fix the issue with the shoe sizes label in product page
+- ✔️ Do some python leetcodes
+
+#🔏 Day-5
+- ✔️ fix the issue with the shoe sizes label in product page
+- ✔️ Do some python leetcodes
+
 
