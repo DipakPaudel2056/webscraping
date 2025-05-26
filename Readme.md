@@ -57,8 +57,14 @@ I have successfully connected and programmatically saved the data from csv to th
 This is just a simple project so let's focus on other stuff than getting stuck in the sizes this time.
 - ✔️ Do some python leetcodes
 
-#🔏 Day-5
+# 🔏 Day-5
 - ✔️  try some manupulation on this samll set of data using python
-- ✔️ Do some python leetcodes
+    1. In  my project app.py is mainly responsible for extracting the data from nike website using beautiful soup.
+    2. manupulation.py is responsible for cleaning the dataset we just extracted to store in the database.
+    3. storetodatabase.py is responsible for converting and storing the data in the database table using python sql connector.
+    4. Today's target is to build some simple chart using matplotlib as well. 
+I havenot done much with the data itself, changed the data type and stored them clean in the database.
+Price functionality is handeled at the front rather than sending to the database.
+- ✅ Do some python leetcodes
 
 
