@@ -65,6 +65,11 @@ This is just a simple project so let's focus on other stuff than getting stuck i
     4. Today's target is to build some simple chart using matplotlib as well. 
 I havenot done much with the data itself, changed the data type and stored them clean in the database.
 Price functionality is handeled at the front rather than sending to the database.
+
+Before doing some visualization in matplotb, why not explore the data in excel first, 
+- i want to find the chart showing relation between price-range and count
+- i want to find the chart showing relation between subtitle and price and 
+
 - ✅ Do some python leetcodes
 
 
