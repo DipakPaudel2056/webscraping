@@ -3,6 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 import asyncio 
 from playwright.async_api import async_playwright
+from manupulation import nikepriceclean, cleannikedetail
+from storetodatabase import storetodatabase
+from generatecharts import generatepricechart
 
 # to write in csv file
 import csv
@@ -75,6 +78,14 @@ def scrape():
     
     for page in allproductpageurllist:
         move_to_product_page(page)
+    # do some manupulation
+    nikepriceclean()
+    cleannikedetail()
+    #store to database
+    storetodatabase()
+    #display chart
+    generatepricechart()
+    
 
     
 if __name__ == '__main__':

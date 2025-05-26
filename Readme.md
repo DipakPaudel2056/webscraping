@@ -72,4 +72,4 @@ Before doing some visualization in matplotb, why not explore the data in excel f
 
 - ✅ Do some python leetcodes
 
-
+# Remarks 
