@@ -73,3 +73,9 @@ Before doing some visualization in matplotb, why not explore the data in excel f
 - ✅ Do some python leetcodes
 
 # Remarks 
+This simple project, i want to conclude it here.I have written an application that scan the nike man's shoes page and store those data in csv and database and with the help of visualization tool and programming language we are able to generate a chart that shoes the number of cheap, affordable and expensive item. 
+We still have lot's of findings and lot's of other use cases from these data however let's stop it here and start working in new data analysis project. 
+
+Currently, i am making my hand's dirty with excel and powerBI so the major project will soon be created and will be made public in near future. 
+
+Untill then, Happy Coding ! Mayalu💗💗
